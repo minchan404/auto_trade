@@ -1,0 +1,27 @@
+{
+  "exchange": "bybit",
+  "symbols": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "SOL/USDT",
+    "XRP/USDT",
+    "AVAX/USDT",
+    "MNT/USDT",
+    "ADA/USDT",
+    "DOGE/USDT",
+    "LINK/USDT",
+    "DOT/USDT"
+  ],
+  "timeframe": "15m",
+  "lookback_bars": 200,
+
+  "sma_short": 5,
+  "sma_long": 20,
+  "rsi_period": 14,
+  "atr_period": 14,
+  "risk_per_trade": 0.02,
+  "atr_multiplier_sl": 2.0,
+  "atr_multiplier_tp": 3.0,
+  "use_opposite_exit": true,
+  "trailing_percent": 0.02
+}
